@@ -1,0 +1,6 @@
+<script src="/plugins/ckeditor_4.5.11/ckeditor.js"></script>
+<script src='/plugins/ng-ckeditor.js'></script>
+
+var app = angular.module("app", ["ngCkeditor", "ngSanitize"]);
+
+<textarea ckeditor="editorOptions" name="editor" ng-model="myVar.Description"></textarea>
